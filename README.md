@@ -10,6 +10,6 @@ This Tool gets inspiration from the following works:
 The model was originally trained from 3616 X-Ray images of patients infected by Covid-19 and 10192 X-Ray images of healthy people to train a Convolutional Neural Network in order to make a classification of pictures referring to infected and not-infected people.
 The result was quite good since we got 96.1% accuracy on the training set and 90.4% accuracy on the test set.
 
-Unfortunately in our test we got 67 cases of 'False Negative', patients classified as healthy that actually are infected by Covid-19. It's very easy to understand that these cases can be a huge issue.
+Unfortunately in my test I got 67 cases of 'False Negative', patients classified as healthy that actually are infected by Covid-19. It's very easy to understand that these cases can be a huge issue.
 
 You can check it out on [Heroku](https://covid19-positive-detection-cnn.herokuapp.com/).
